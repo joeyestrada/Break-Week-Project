@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "keyword-extractor": "^0.0.21",
+    "sentiment": "^5.0.2"
+  }
+}
