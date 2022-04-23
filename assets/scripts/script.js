@@ -7,7 +7,7 @@ const GENIUS_URL = "https://api.genius.com/search?q=";
 const token =
   "tCshVogsW6fQdh79KpVLchL_Btc4ikvZA64d7Ok3Uy7RGGIOvj3b-lpReBo9eNpt";
 
-/* functions */  
+/* functions */
 
 //Get trivia based on number
 function triviaGet(number) {
@@ -38,6 +38,6 @@ function searchGenius(keyword) {
 }
 
 //Display connection between number and song
-function displayExplainer(keyword, songName){
-    return `Based on the word ${keyword}, we found you this song: ${songName}`
+function displayExplainer(keyword, songName) {
+  return `Based on the word ${keyword}, we found you this song: ${songName}`;
 }
